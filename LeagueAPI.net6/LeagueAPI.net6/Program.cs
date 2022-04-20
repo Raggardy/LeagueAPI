@@ -1,4 +1,6 @@
+using LeagueAPI.net6.Contracts;
 using LeagueAPI.net6.Data;
+using LeagueAPI.net6.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<ITeamRepository, TeamRepository>();
 builder.Services.AddDbContext<FootballDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
