@@ -4,7 +4,7 @@
 
 namespace LeagueAPI.net6.Migrations
 {
-    public partial class SeedDb : Migration
+    public partial class BothTeamsAddedToDatabase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -33,7 +33,18 @@ namespace LeagueAPI.net6.Migrations
                     { 10, "Mike", "Von Spike", 6, 1 },
                     { 11, "Kevin", "Badger", 8, 1 },
                     { 12, "Steve", "Badger", 9, 1 },
-                    { 13, "Zack", "Crack", 7, 1 }
+                    { 13, "Zack", "Crack", 7, 1 },
+                    { 14, "Simon", "Snada", 0, 2 },
+                    { 15, "Joe", "Johnson", 1, 2 },
+                    { 16, "Cliff", "Richards", 3, 2 },
+                    { 17, "Peter", "Perkins", 3, 2 },
+                    { 18, "Jay", "Yay", 2, 2 },
+                    { 19, "Mel", "Dean", 4, 2 },
+                    { 20, "Mike", "Hawkins", 5, 2 },
+                    { 21, "Grant", "Taylor", 6, 2 },
+                    { 22, "Phil", "Smith", 7, 2 },
+                    { 23, "Thomas", "Vindel", 8, 2 },
+                    { 24, "Darren", "Parker", 9, 2 }
                 });
         }
 
@@ -95,14 +106,69 @@ namespace LeagueAPI.net6.Migrations
                 keyValue: 13);
 
             migrationBuilder.DeleteData(
-                table: "Teams",
+                table: "Players",
                 keyColumn: "Id",
-                keyValue: 2);
+                keyValue: 14);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 15);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 16);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 17);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 18);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 19);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 20);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 21);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 22);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 23);
+
+            migrationBuilder.DeleteData(
+                table: "Players",
+                keyColumn: "Id",
+                keyValue: 24);
 
             migrationBuilder.DeleteData(
                 table: "Teams",
                 keyColumn: "Id",
                 keyValue: 1);
+
+            migrationBuilder.DeleteData(
+                table: "Teams",
+                keyColumn: "Id",
+                keyValue: 2);
         }
     }
 }

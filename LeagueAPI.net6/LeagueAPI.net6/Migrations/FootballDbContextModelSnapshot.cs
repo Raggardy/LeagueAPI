@@ -137,6 +137,94 @@ namespace LeagueAPI.net6.Migrations
                             LastName = "Crack",
                             Position = 7,
                             TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 14,
+                            FirstName = "Simon",
+                            LastName = "Snada",
+                            Position = 0,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 15,
+                            FirstName = "Joe",
+                            LastName = "Johnson",
+                            Position = 1,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 16,
+                            FirstName = "Cliff",
+                            LastName = "Richards",
+                            Position = 3,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 17,
+                            FirstName = "Peter",
+                            LastName = "Perkins",
+                            Position = 3,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 18,
+                            FirstName = "Jay",
+                            LastName = "Yay",
+                            Position = 2,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 19,
+                            FirstName = "Mel",
+                            LastName = "Dean",
+                            Position = 4,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 20,
+                            FirstName = "Mike",
+                            LastName = "Hawkins",
+                            Position = 5,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 21,
+                            FirstName = "Grant",
+                            LastName = "Taylor",
+                            Position = 6,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 22,
+                            FirstName = "Phil",
+                            LastName = "Smith",
+                            Position = 7,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 23,
+                            FirstName = "Thomas",
+                            LastName = "Vindel",
+                            Position = 8,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 24,
+                            FirstName = "Darren",
+                            LastName = "Parker",
+                            Position = 9,
+                            TeamId = 2
                         });
                 });
 

@@ -29,7 +29,19 @@ namespace LeagueAPI.net6.Data
                 new Player { Id = 10, FirstName = "Mike", LastName = "Von Spike", Position = Position.RM, TeamId = 1 },
                 new Player { Id = 11, FirstName = "Kevin", LastName = "Badger", Position = Position.CF, TeamId = 1 },
                 new Player { Id = 12, FirstName = "Steve", LastName = "Badger", Position = Position.RW, TeamId = 1 },
-                new Player { Id = 13, FirstName = "Zack", LastName = "Crack", Position = Position.LW, TeamId = 1 }
+                new Player { Id = 13, FirstName = "Zack", LastName = "Crack", Position = Position.LW, TeamId = 1 },
+
+                new Player { Id = 14, FirstName = "Simon", LastName = "Snada", Position = Position.GK, TeamId = 2 },
+                new Player { Id = 15, FirstName = "Joe", LastName = "Johnson", Position = Position.LB, TeamId = 2 },
+                new Player { Id = 16, FirstName = "Cliff", LastName = "Richards", Position = Position.CB, TeamId = 2 },
+                new Player { Id = 17, FirstName = "Peter", LastName = "Perkins", Position = Position.CB, TeamId = 2 },
+                new Player { Id = 18, FirstName = "Jay", LastName = "Yay", Position = Position.RB, TeamId = 2 },
+                new Player { Id = 19, FirstName = "Mel", LastName = "Dean", Position = Position.LM, TeamId = 2 },
+                new Player { Id = 20, FirstName = "Mike", LastName = "Hawkins", Position = Position.CM, TeamId = 2 },
+                new Player { Id = 21, FirstName = "Grant", LastName = "Taylor", Position = Position.RM, TeamId = 2 },
+                new Player { Id = 22, FirstName = "Phil", LastName = "Smith", Position = Position.LW, TeamId = 2 },
+                new Player { Id = 23, FirstName = "Thomas", LastName = "Vindel", Position = Position.CF, TeamId = 2 },
+                new Player { Id = 24, FirstName = "Darren", LastName = "Parker", Position = Position.RW, TeamId = 2 }
 
                 );
 
