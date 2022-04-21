@@ -32,19 +32,16 @@ namespace LeagueAPI.net6.Repositories
                 .FirstOrDefaultAsync();
         }
 
-        public Team GetTeamByName(string name)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public bool Save()
         {
             throw new NotImplementedException();
         }
 
-        public bool TeamExists(int id)
+        public bool Exists(int id)
         {
-            throw new NotImplementedException();
+            return _footballContext.Teams.Any(x => x.Id == id);
         }
     }
 }

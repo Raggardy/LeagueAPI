@@ -25,10 +25,14 @@ namespace LeagueAPI.net6.Controllers
         }
 
         [HttpGet("{teamId}")]
-        [ProducesResponseType(200, Type = typeof(Team))]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<Team>))]
         [ProducesResponseType(400)]
         public async Task<IActionResult> GetTeamById(int teamId)
         {
+            if(!_teamRepository.Exists(teamId))
+            {
+                return BadRequest("Please check your input. Selected team doesn't exist");
+            }
             var team = await _teamRepository.GetTeamByIdAsync(teamId);
             return Ok(team);
         }

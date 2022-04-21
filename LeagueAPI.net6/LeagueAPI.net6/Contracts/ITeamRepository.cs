@@ -6,8 +6,8 @@ namespace LeagueAPI.net6.Contracts
     {
         Task<ICollection<Team>> GetAllTeamsAsync();
         Task<Team> GetTeamByIdAsync(int id);
-        Team GetTeamByName(string name);
-        bool TeamExists(int id);
+        
+        bool Exists(int id);
         bool CreateTeam(Team team);
         bool Save();
 
